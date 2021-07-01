@@ -19,7 +19,7 @@ const App = () => {
       setIsLoading(false);
     }
     fetchItems();
-  }, [])
+  }, [query])
 
   return (
     <div className='container'>
